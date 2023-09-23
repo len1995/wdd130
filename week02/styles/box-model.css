@@ -1,7 +1,7 @@
 .callout {
 	width: 300px;
     margin: 12px;
-    border: 1px rgb(2 121 139);
+    border: 1px rgba(0,0,0,.1);
     padding: 15px;
     background-color: black;
     color: #fff;
