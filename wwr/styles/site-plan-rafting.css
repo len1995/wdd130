@@ -1,4 +1,70 @@
-h1 {
-    font-size: 60px;
-    text-align: center;
+/*@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Rubik+Bubbles&display=swap");*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+/*@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Permanent+Marker&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");*/
+/*Font options for heading-Monoton Rubik Bubbles, Bree Serif, Permanent Marker*/
+/*Font options for paragraph Ysabeau and merienda*/
+
+:root {
+    --primary-color: #edede5;
+    --secondary-color: #8fc1e3;
+    --tertiary-color: #6699CC;
+    --accent1-color: #31708e;
+    --accent2-color: #687864;
+    --heading-font: Bree Serif;
+    --subheading-font: Shrikhand;
+    --paragraph-font: Roboto;
+    --nav-background-color: #f79e02;
+    --nav-link-color: #8fc1e3;
+    --nav-hover-link-color:#edede5;
+    --nav-hover-background-color: #5085a5;
+}   
+
+body{
+    font-family:var(--paragraph-font);
+    max-width:960px;
+    padding:20px;
 }
+  
+h1{ 
+    font-family:var(--heading-font);
+    color:var(--nav-background-color);
+}
+
+h2,h3,h4,h5,h6 {
+    font-family:var(--subheading-font);
+    color:var(--tertiary-color);
+}
+
+header{
+    background-color:var(--primary-color);
+    padding:5px;
+}
+
+p {
+    padding:2px;
+}
+
+nav{
+    background-color:var(--nav-background-color);
+    font-size: 1em;
+    display:flex;
+   /* padding: 10px;*/
+}
+nav a{
+    color:var(--nav-link-color);
+    display:inline-flex;
+    padding: .5em;
+}
+nav a:link{
+    color:var(--nav-hover-link-color)
+}
+nav a:visited{
+    color:var(--secondary-color)
+}
+
+nav a:hover{
+    color:var(--secondary-color)
+}
+
+
