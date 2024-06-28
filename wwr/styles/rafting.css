@@ -19,7 +19,6 @@
     --nav-hover-background-color: #86bbd8ff;
 }
 
-  
 header img{
     width: 110px;
     height: auto;
@@ -81,7 +80,6 @@ main {
     background: radial-gradient(#eee, #4567aa);
     opacity: 0.8;
     text-align: center;
-
 }
 
 .hero img{
@@ -93,7 +91,7 @@ main {
 article {
     position: absolute;
 	border-bottom-color: 25px;
-    bottom: 80px;
+    bottom: 70px;
     right:15px;
 	left: 15px;
 	background: radial-gradient(#eee, #4567aa);
@@ -107,7 +105,6 @@ article {
 .hero article img{
     float:right;
     width:25%;
-       
 
  }    
  
