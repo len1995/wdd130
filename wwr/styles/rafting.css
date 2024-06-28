@@ -93,7 +93,7 @@ main {
 article {
     position: absolute;
 	border-bottom-color: 25px;
-    bottom: 50px;
+    bottom: 80px;
     right:15px;
 	left: 15px;
 	background: radial-gradient(#eee, #4567aa);
@@ -101,6 +101,7 @@ article {
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #111;
 	opacity: 0.8;
+    color:dark blue;
        
 }
 .hero article img{
