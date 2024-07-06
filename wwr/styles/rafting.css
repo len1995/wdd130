@@ -38,28 +38,31 @@ h2,h3,h4,h5,h6 {
 }
 
 nav{
-    background-color:var(--accent1-color);
-    display:flex;
-    text-decoration: none ;
-    
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a{
-    color:var(--nav-link-color);
-    display:inline-block;
-    padding: .5em;
+    display:block;
+    padding: 0.5rem;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff; 
 }
-nav a:link{
-    color:var(--nav-hover-link-color)
+nav a:link {
+    color:var(--nav-link-color)
       
 }
-nav a:visited{
-    color:var(--secondary-color)
-}
 
-nav a:hover{
-    color:var(--tertiary-color)
+/*.hero a:visited {
+    color:var(--secondary-color)
+}*/
+
+nav a:hover {
+    color:var(--secondary-color)
 }
 
 
@@ -73,6 +76,7 @@ main {
     margin: 100px auto;
     position:relative;
 }
+
 .hero h1{
     position:relative;
     padding: 0.2rem;
@@ -105,8 +109,9 @@ article {
 .hero article img{
     float:right;
     width:25%;
-
- }    
+    margin:10px;
+    display:block;
+}    
  
 
 footer{
