@@ -149,20 +149,17 @@ article {
     align-items: center; */
 }
 
+footer {
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
 .footer1 {
+
+ padding: 10px 10px;
   text-align: center;
   display: flex;
   justify-content: center;
-
-  padding: 10px 10px;
 }
 
-.footer1 > div {
-  padding: 10px 10px;
-}
-
-.footer2 {
-  margin: 0 0 0 70px;
-  width: 200px;
-  height: 100px;
-}

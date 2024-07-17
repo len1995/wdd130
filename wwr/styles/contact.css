@@ -159,14 +159,13 @@ button:hover {
 footer {
   background-color: steelblue;
   color: white;
-  padding: 10px;
-  text-align: right;
-}
-.footer1 {
-
- padding: 10px 10px;
   text-align: center;
-  display: flex;
+/* }
+.footer1 { */
+
+  padding: 10px 10px;
+  text-align: center;
+  /* display: flex; */
   justify-content: center;
 }
 
