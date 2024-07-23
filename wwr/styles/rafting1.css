@@ -1,0 +1,329 @@
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-size: x-large;
+    /* height: auto; */
+
+}
+
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+header img {
+    display: flex;
+    align-self: end;
+    width: 80px;
+    height: auto;
+    margin: 10px;
+    
+}
+/* header end  */
+
+/* Main selectors */
+/* body{
+    background-color: var(--accent2-color);
+} */
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: var(--nav-hover-link-color);
+}
+h1 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+
+}
+h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    padding: 0.8em;
+    text-align: center;
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+section{
+    text-align: center;
+}
+
+div article p {
+    width: 100%;
+}
+/* Hero Image */
+/* Class declerations */
+.about-us {
+    color: var(--accent2-color);
+}
+
+.trips-page{
+    color: var(--accent2-color);
+}
+.background-text{
+        background-color: rgba(39,90,104, 0.7);
+
+}
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero article img{
+    width: 20%;
+}
+
+.hero, .background{
+    display: block;
+    /* width: 1280px; */
+    /* float: right; */
+    height: auto;
+    width: 100%;
+    
+}
+/* Class declarations end */
+div h1 {
+    position: absolute;
+    top: 3%;
+    text-align: center;
+    background-color: rgba(39,90,104, 0.7);
+    width: 100%;
+}
+
+div article {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    left: 10%;
+    bottom: 10%;
+    padding: 1%;
+    height: auto;
+    float: right;
+    color: white;
+
+}
+/* Hero Image end */
+
+/* Adcenture awaits you selectors */
+figure {
+    margin: 0;
+}
+.flexbox-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--accent1-color);
+    padding: 1em;
+    align-items: stretch;
+
+    
+}
+.rafting-adventure{
+    width: 100%;
+    height: auto;
+}
+
+
+div article img {
+    width: 200px;
+    float: right;
+}
+/* Adventrue awaits you selectors end */
+ /* Main end */
+
+ /* Footer Selectors */
+footer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 2em;
+    width: 100%;
+}
+footer img {
+    width: 50px;
+}
+footer nav {
+    grid-column: 3;
+}
+/* footer end */
+
+/* Contact us page */
+iframe{
+    width: 20em;
+    height: auto;
+    margin: 0.5em;
+}
+ul{
+    text-align: left;
+    float: left;
+    margin-left: 5em;
+    padding: 0.5em;
+}
+.company-information{
+    display: grid;
+    grid-template-columns: 35% 1fr;
+}
+.contact-us-page{
+    text-align: center;
+    padding: 0.7em;
+}
+.happy-employee{
+    width: 200px;
+}
+
+/* form */
+.form{
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: grid;
+    width: 30em;
+    /* margin: 25px;
+    margin-top: 0; */
+    padding: 0.5em;
+    border: 1px solid black;
+    background-color: var(--accent1-color);
+    border-radius: 0;
+    justify-items: center;
+    font-family: var(--paragraph-font);
+}
+fieldset{
+    display: grid;
+    padding: 0.5em;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /* justify-content: center;
+    flex-flow: column wrap; */
+}
+input, select, textarea{
+    float: right;
+    padding: 0.5em;
+    margin: 0.5em;;
+}
+
+.checkbox{
+    padding: 1em;
+    height: 1.5em;
+}
+button{
+    width: 5em;
+    height: 2em;
+    margin-top: 0.5em;
+}
+
+button:hover{
+    background-color: var(--nav-hover-link-color);
+}
+
+/* trips page */
+/* article a {
+    position: absolute; */
+   
+
+article button{
+    position: absolute;
+    /* padding: 2em; */
+    width: 10em;
+    height: 3em;
+    right: 18em;
+    bottom: 13em;
+    background-color:var(--accent2-color);
+}
+
+.trips-page{
+    position: absolute;
+    top: 2em;
+}
+
+/* div{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    justify-items: center;
+    align-items: center;
+    background-color: var(--accent1-color);
+    padding: 1em;
+    width: 50em;
+
+}
+div h2 {
+    width: 200px;
+
+}
+div p {
+    width: 200px;
+    /* grid-row: 3; */
+}
+
+div img{
+    width: 200px;
+    /* grid-row: 2; */
+}
+table, th, td{
+    border: 1px solid black
+}
+table{
+    width: 100%;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--nav-hover-link-color);
+}
+.home-text{
+    position: absolute;
+    background-color: rgba(39,90,104, 0.7);
+    height: 6em;
+    top: 12em;
+} 
+.home{
+    position: absolute;
+    color: #1EBDC2;
+    top: 2em;
+    
+}
+aside{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    width: 50em;
+}
+.offering{
+    grid-row: 2;
+}
+
+aside img {
+    width: 150px;
+    grid-column: 3;
+    margin: 5px;
+}
+.newsletter{
+    width: 20em;
+}
+.newsletter-parent{
+    display: flex;
+    justify-content: center;
+}
+form button{
+    float: right;
+}
+.about {
+    width: 50em;
+}
