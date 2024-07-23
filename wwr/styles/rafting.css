@@ -108,15 +108,18 @@ main {
 .main1 {
   padding: 15px 15px; 
   display: flex; 
+  justify-content: center;
 }
 .main1 > div {
   padding: 10px 10px;
+  justify-content: center;
 }
 
 .main1 img {
-  margin: 1 0.2rem 1 1rem;
+  margin: 1rem 0.2rem 1rem 1rem;
   width: 200px;
   height: 200px; 
+  justify-content: center;
 }
 /* .main1 .one{
   font-size: 2rem;
@@ -146,12 +149,13 @@ article {
   display: flex;
   padding: 10px 10px;
   text-align: center;
+  justify-content: center;
 }
 
 .gallery-box .gallery-box1 img {
   margin: 0 0.25rem 0 1rem;
-  width: 200px;
-  height: 200x;
+  width: 20rem;
+  height: 2.5 rem;
   justify-content: center;
     align-items: center; 
 }
@@ -190,9 +194,9 @@ article {
   /* margin: 1 0.2rem 1 1rem;
   width: 200px;
   height: 200px */
-  margin: 0 0.25rem 0 1rem;
+  margin: 0rem 0.25rem 0 1rem;
   width: 400px;
-  height: 200x;
+  height: 200px;
   justify-content: center;
   align-items: center; 
   float:right;
@@ -262,7 +266,7 @@ button {
   text-align: center; */
   position: relative;
   font-size: 1.5rem;
-  border-bottom-color: 25px;
+  border-bottom-color: blue;
   bottom: 20px;
   right: 15px;
   left: 15px;
@@ -271,7 +275,7 @@ button {
   padding: 0.65rem;
   box-shadow: 0 0 30px #111;
   opacity: 0.8;
-  color: dark blue;
+  color:  dark blue;
 }
 button:hover {
   background-color: darkgreen;
